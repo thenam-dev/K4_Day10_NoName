@@ -1,0 +1,16 @@
+﻿.\.venv\Scripts\python.exe : Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to 
+enable higher rate limits and faster downloads.
+At line:2 char:1
++ .\.venv\Scripts\python.exe script\run_phase1.py *> phase1_integrated. ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: You ar...ster downloads.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+=== Step 1: Loading Settings & Ingesting Raw Data ===
+Ingested 24 raw paper records from Crossref REST API.
+=== Step 2: Cleaning Data & Building DataFrame ===
+Cleaned 24 valid paper records. Saved to papers_clean.csv.
+=== Step 3: Building Vector Store (Embedding Index) ===
+
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]
+Loading weights: 100%|██████████| 103/103 [00:00<00:00, 8107.14it/s]

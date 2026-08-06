@@ -4,7 +4,7 @@
   "message-version": "1.0.0",
   "message": {
     "facets": {},
-    "total-results": 101070,
+    "total-results": 101141,
     "items": [
       {
         "indexed": {
@@ -120,7 +120,7 @@
           "date-time": "2026-06-17T08:00:36Z",
           "timestamp": 1781683236000
         },
-        "score": 39.930244,
+        "score": 39.931,
         "resource": {
           "primary": {
             "URL": "https://ieiap.ru/journal"
@@ -277,7 +277,7 @@
           "date-time": "2026-06-12T16:31:45Z",
           "timestamp": 1781281905000
         },
-        "score": 38.19432,
+        "score": 38.19509,
         "resource": {
           "primary": {
             "URL": "https://www.techrxiv.org/doi/full/10.36227/techrxiv.177272838.89432844/v1"
@@ -442,7 +442,7 @@
           "date-time": "2026-07-17T01:44:05Z",
           "timestamp": 1784252645000
         },
-        "score": 37.595894,
+        "score": 37.596405,
         "resource": {
           "primary": {
             "URL": "https://inatgi.net/index.php/jaiaa/article/view/806"
@@ -643,7 +643,7 @@
           "date-time": "2026-04-07T00:32:52Z",
           "timestamp": 1775521972000
         },
-        "score": 37.50482,
+        "score": 37.505226,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202604.0339/v1"
@@ -1059,7 +1059,7 @@
           "date-time": "2026-02-28T05:20:35Z",
           "timestamp": 1772256035000
         },
-        "score": 36.653473,
+        "score": 36.651447,
         "resource": {
           "primary": {
             "URL": "https://www.mdpi.com/2076-3417/16/5/2244"
@@ -1204,7 +1204,7 @@
           "date-time": "2026-05-06T16:40:10Z",
           "timestamp": 1778085610000
         },
-        "score": 36.514137,
+        "score": 36.514706,
         "resource": {
           "primary": {
             "URL": "https://isjem.com/download/speculative-retrieval-augmented-generation-for-cost-efficient-large-language-model-inference/"
@@ -1366,7 +1366,7 @@
           "date-time": "2026-02-13T02:08:03Z",
           "timestamp": 1770948483000
         },
-        "score": 36.194622,
+        "score": 36.194855,
         "resource": {
           "primary": {
             "URL": "https://www.preprints.org/manuscript/202602.0996/v1"
@@ -1506,7 +1506,7 @@
           "date-time": "2026-07-06T03:55:08Z",
           "timestamp": 1783310108000
         },
-        "score": 35.645775,
+        "score": 35.646404,
         "resource": {
           "primary": {
             "URL": "http://preprints.jmir.org/preprint/106157"
@@ -1978,7 +1978,7 @@
           "date-time": "2026-07-02T10:56:27Z",
           "timestamp": 1782989787000
         },
-        "score": 35.58654,
+        "score": 35.58715,
         "resource": {
           "primary": {
             "URL": "https://www.mdpi.com/2075-5309/16/13/2637"
@@ -2171,7 +2171,7 @@
           "date-time": "2026-06-15T06:08:17Z",
           "timestamp": 1781503697000
         },
-        "score": 35.486244,
+        "score": 35.511295,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10012178/v1"
@@ -2652,7 +2652,7 @@
           "date-time": "2026-08-05T14:18:01Z",
           "timestamp": 1785939481000
         },
-        "score": 34.880898,
+        "score": 34.93306,
         "resource": {
           "primary": {
             "URL": "https://onepetro.org/SJ/article/doi/10.2118/234689-PA/801839/SafeRAG-A-Large-Language-Model-Based-Multistage"
@@ -2859,7 +2859,7 @@
           "date-time": "2026-07-04T20:37:12Z",
           "timestamp": 1783197432000
         },
-        "score": 34.605244,
+        "score": 34.605732,
         "resource": {
           "primary": {
             "URL": "https://www.ejournal.ummuba.ac.id/index.php/JUPTIK/article/view/4318"
@@ -3028,7 +3028,7 @@
           "date-time": "2026-07-10T14:51:37Z",
           "timestamp": 1783695097000
         },
-        "score": 34.48002,
+        "score": 34.480476,
         "resource": {
           "primary": {
             "URL": "https://hdl.handle.net/11681/50309"
@@ -3162,7 +3162,7 @@
           "date-time": "2026-03-06T11:10:27Z",
           "timestamp": 1772795427000
         },
-        "score": 34.290924,
+        "score": 34.291584,
         "resource": {
           "primary": {
             "URL": "https://www.scholarlyreview.org/article/158711-the-role-of-retrieval-augmented-generation-in-improving-factual-accuracy-for-medical-large-language-models"
@@ -3753,7 +3753,7 @@
           "date-time": "2026-07-13T14:44:27Z",
           "timestamp": 1783953867000
         },
-        "score": 34.221973,
+        "score": 34.222584,
         "resource": {
           "primary": {
             "URL": "https://link.springer.com/10.1007/s10278-026-02086-9"
@@ -4016,7 +4016,7 @@
           "date-time": "2026-02-26T14:41:27Z",
           "timestamp": 1772116887000
         },
-        "score": 34.179928,
+        "score": 34.180355,
         "resource": {
           "primary": {
             "URL": "https://jurnal.polbeng.ac.id/index.php/ISI/article/view/1484"
@@ -4286,7 +4286,7 @@
           "date-time": "2026-05-09T02:39:59Z",
           "timestamp": 1778294399000
         },
-        "score": 34.09677,
+        "score": 34.097557,
         "resource": {
           "primary": {
             "URL": "https://academic.oup.com/sleep/article/49/Supplement_1/A153/8673444"
@@ -4495,7 +4495,7 @@
           "date-time": "2026-07-10T18:10:19Z",
           "timestamp": 1783707019000
         },
-        "score": 34.008537,
+        "score": 34.04248,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-10178277/v1"
@@ -4668,7 +4668,7 @@
           "date-time": "2026-06-02T16:06:31Z",
           "timestamp": 1780416391000
         },
-        "score": 33.934525,
+        "score": 33.93502,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-9882260/v1"
@@ -4779,7 +4779,7 @@
           "date-time": "2026-05-16T07:57:01Z",
           "timestamp": 1778918221000
         },
-        "score": 33.347324,
+        "score": 33.347893,
         "resource": {
           "primary": {
             "URL": "https://www.ijraset.com/best-journal/hybrid-graph-neural-network-and-large-language-"
@@ -4914,7 +4914,7 @@
           "date-time": "2026-06-01T07:10:33Z",
           "timestamp": 1780297833000
         },
-        "score": 33.192215,
+        "score": 33.185284,
         "resource": {
           "primary": {
             "URL": "https://tns.ewapub.com/article/view/34055"
@@ -5141,7 +5141,7 @@
           "date-time": "2026-05-06T13:17:58Z",
           "timestamp": 1778073478000
         },
-        "score": 33.029884,
+        "score": 33.03067,
         "resource": {
           "primary": {
             "URL": "https://journals.flvc.org/FLAIRS/article/view/141782"
@@ -5321,7 +5321,7 @@
           "date-time": "2026-05-22T03:59:47Z",
           "timestamp": 1779422387000
         },
-        "score": 33.017418,
+        "score": 33.017788,
         "resource": {
           "primary": {
             "URL": "https://www.researchsquare.com/article/rs-9770645/v1"
@@ -5749,7 +5749,7 @@
           "date-time": "2026-07-16T09:33:41Z",
           "timestamp": 1784194421000
         },
-        "score": 32.994442,
+        "score": 32.995235,
         "resource": {
           "primary": {
             "URL": "https://onlinelibrary.wiley.com/doi/10.1111/exsy.70341"

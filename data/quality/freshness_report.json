@@ -1,9 +1,0 @@
-{
-  "latest_published": "2026-08-05",
-  "oldest_published": "2026-02-12",
-  "stale_rows": 0,
-  "total_rows": 24,
-  "stale_ratio": 0.0,
-  "freshness_threshold_days": 180,
-  "is_fresh": true
-}
