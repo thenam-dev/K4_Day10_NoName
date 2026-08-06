@@ -1,0 +1,17 @@
+[
+  {
+    "question": "What is the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents' about?",
+    "answer": null,
+    "error": "GOOGLE_API_KEY is required when LLM_PROVIDER=gemini."
+  },
+  {
+    "question": "Who authored the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents'?",
+    "answer": null,
+    "error": "GOOGLE_API_KEY is required when LLM_PROVIDER=gemini."
+  },
+  {
+    "question": "When was the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents' published?",
+    "answer": null,
+    "error": "GOOGLE_API_KEY is required when LLM_PROVIDER=gemini."
+  }
+]
