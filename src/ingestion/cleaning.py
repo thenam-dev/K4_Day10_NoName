@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from dataclasses import asdict
 from datetime import date, datetime
+import html
 import re
 from typing import Any
 
@@ -35,7 +36,8 @@ def _clean_text(value: Any) -> str:
     """Remove lightweight HTML/JATS markup and normalize whitespace."""
     if value is None or (isinstance(value, float) and pd.isna(value)):
         return ""
-    return normalize_whitespace(re.sub(r"<[^>]+>", " ", str(value)))
+    without_tags = re.sub(r"<[^>]+>", " ", str(value))
+    return normalize_whitespace(html.unescape(without_tags))
 
 
 def _clean_list(value: Any) -> list[str]:
@@ -56,7 +58,7 @@ def _empty_clean_dataframe() -> pd.DataFrame:
     return pd.DataFrame(columns=_CLEAN_COLUMNS)
 
 
-def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.DataFrame:
+def build_clean_dataframe(records: list[PaperRecord], run_date: date | datetime) -> pd.DataFrame:
     """Normalize valid Crossref records into the stable schema used downstream.
 
     A record is valid only when it has a stable ID, a title, a sufficiently useful
@@ -71,7 +73,7 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
     rows: list[dict[str, Any]] = []
     for record in records:
         raw = asdict(record)
-        paper_id = _clean_text(raw["paper_id"])
+        paper_id = _clean_text(raw["paper_id"]).lower()
         title = _clean_text(raw["title"])
         summary = _clean_text(raw["summary"])
         published_day = _parse_iso_date(raw["published"])
@@ -81,10 +83,10 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
         if not paper_id or not title or len(summary) < 50 or published_day is None:
             continue
 
-        authors = _clean_list(raw["authors"])
-        categories = _clean_list(raw["categories"])
-        authors_joined = compact_join(authors) or "Anonymous"
-        categories_joined = compact_join(categories) or "Uncategorized"
+        authors = _clean_list(raw["authors"]) or ["Anonymous"]
+        categories = _clean_list(raw["categories"]) or ["Uncategorized"]
+        authors_joined = compact_join(authors)
+        categories_joined = compact_join(categories)
         primary_category = _clean_text(raw["primary_category"])
         if not primary_category:
             primary_category = categories[0] if categories else "Uncategorized"
@@ -110,7 +112,7 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
                 "primary_category": primary_category,
                 "published": published_day.isoformat(),
                 "updated": updated_day.isoformat() if updated_day else published_day.isoformat(),
-                "age_days": max(0, (run_day - published_day).days),
+                "age_days": (run_day - published_day).days,
                 "summary_chars": len(summary),
                 "text_for_embedding": text_for_embedding,
                 "abs_url": _clean_text(raw["abs_url"]),
@@ -130,5 +132,6 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
         kind="mergesort",
     )
     df = df.drop_duplicates(subset=["paper_id"], keep="first")
-    df = df.drop_duplicates(subset=["title"], keep="first")
+    df["_title_key"] = df["title"].str.casefold()
+    df = df.drop_duplicates(subset=["_title_key"], keep="first").drop(columns=["_title_key"])
     return df.sort_values(["published", "paper_id"], ascending=[False, True], kind="mergesort").reset_index(drop=True)
