@@ -7,11 +7,8 @@
       "\u0418.\u0412. \u0415\u0440\u043c\u0430\u043a\u043e\u0432",
       "\u0412.\u0412. \u0424\u0438\u043b\u0430\u0442\u043e\u0432"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-15",
     "updated": "2026-06-17",
     "abs_url": "https://doi.org/10.47576/2949-1894.2026.7.7.023",
@@ -25,11 +22,8 @@
     "authors": [
       "Lihui Liu"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-03-05",
     "updated": "2026-06-12",
     "abs_url": "https://doi.org/10.36227/techrxiv.177272838.89432844/v1",
@@ -45,11 +39,8 @@
       "Clara M. Hofmann",
       "Amara N. Okoye"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-30",
     "updated": "2026-07-17",
     "abs_url": "https://doi.org/10.63646/kpqm1958",
@@ -68,11 +59,8 @@
       "Zhen Qi",
       "Huajun Zhang"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-04-06",
     "updated": "2026-07-30",
     "abs_url": "https://doi.org/10.20944/preprints202604.0339.v1",
@@ -87,11 +75,8 @@
       "Hyewon Lee",
       "Sungsu Lim"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-02-26",
     "updated": "2026-05-14",
     "abs_url": "https://doi.org/10.3390/app16052244",
@@ -106,11 +91,8 @@
       "Dr. Sumalatha P",
       "Manoj Kumar"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-05-06",
     "updated": "2026-05-06",
     "abs_url": "https://doi.org/10.55041/isjem07213",
@@ -125,11 +107,8 @@
       "Donald Martin",
       "Blake Bowman"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-02-12",
     "updated": "2026-02-13",
     "abs_url": "https://doi.org/10.20944/preprints202602.0996.v1",
@@ -145,11 +124,8 @@
       "Alexander Cresswell",
       "Alice Huffman"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-07-03",
     "updated": "2026-07-06",
     "abs_url": "https://doi.org/10.2196/preprints.106157",
@@ -164,11 +140,8 @@
       "Nawari O. Nawari",
       "Oluwatoyin O. Lawal"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-07-02",
     "updated": "2026-07-02",
     "abs_url": "https://doi.org/10.3390/buildings16132637",
@@ -183,11 +156,8 @@
       "Audrey Rah",
       "Sven Hahues"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-15",
     "updated": "2026-06-15",
     "abs_url": "https://doi.org/10.21203/rs.3.rs-10012178/v1",
@@ -204,11 +174,8 @@
       "Junxiong Ning",
       "Gongru Li"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-08-05",
     "updated": "2026-08-05",
     "abs_url": "https://doi.org/10.2118/234689-pa",
@@ -225,11 +192,8 @@
       "Yelfi Vitriani",
       "Novriyanto"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-01",
     "updated": "2026-07-04",
     "abs_url": "https://doi.org/10.52060/juptik.v4i1.4318",
@@ -239,7 +203,7 @@
   {
     "paper_id": "10.21079/11681/50309",
     "title": "Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model",
-    "summary": "The US Army Corps of Engineers (USACE) Civil Works (CW) research and development (R&amp;D) mission is to address challenging environmental sustainability problems through innovative science and engineering, which helps to ensure a safer, more prosperous, and more resilient nation. To achieve this, the US Army Engineer Research and Development Center (ERDC) plans, executes, leads, and directs many R&amp;D programs in coordination with USACE Headquarters, Districts, and Divisions through its multiple strategic focus areas, which include infrastructure, water modeling, crisis preparedness, ecosystem, sediment management, data, artificial intelligence, and robotics. In this process, much information is generated, including internal progress reviews, financial reports, scopes of work, work package planning, and success stories.",
+    "summary": "The US Army Corps of Engineers (USACE) Civil Works (CW) research and development (R&D) mission is to address challenging environmental sustainability problems through innovative science and engineering, which helps to ensure a safer, more prosperous, and more resilient nation. To achieve this, the US Army Engineer Research and Development Center (ERDC) plans, executes, leads, and directs many R&D programs in coordination with USACE Headquarters, Districts, and Divisions through its multiple strategic focus areas, which include infrastructure, water modeling, crisis preparedness, ecosystem, sediment management, data, artificial intelligence, and robotics. In this process, much information is generated, including internal progress reviews, financial reports, scopes of work, work package planning, and success stories.",
     "authors": [
       "Janet L. Autrey",
       "Lacey S. Duckworth",
@@ -247,11 +211,8 @@
       "Thomas Sigler",
       "Victoria D. Moore"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-07-01",
     "updated": "2026-07-10",
     "abs_url": "https://doi.org/10.21079/11681/50309",
@@ -265,11 +226,8 @@
     "authors": [
       "Eason Ni"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-03-15",
     "updated": "2026-03-06",
     "abs_url": "https://doi.org/10.70121/001c.158711",
@@ -279,7 +237,7 @@
   {
     "paper_id": "10.1007/s10278-026-02086-9",
     "title": "JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study",
-    "summary": "Abstract Diagnosing jawbone lesions in oral and maxillofacial radiology remains challenging due to overlapping radiological features and the need for integrated clinical reasoning. This study aimed to develop and validate JADE-Plus, a novel multimodal, agent-controlled retrieval-augmented generation (RAG) framework for diagnostic decision support in jawbone lesion assessment. JADE-Plus was implemented as a cloud-based, tablet-optimized system integrating a vision-language model (VLM) for panoramic radiograph analysis, a knowledge-grounded RAG module, and an agentic verification loop for diagnostic fusion and re-ranking. The system was evaluated using 40 representative jawbone lesion cases and compared with JADE, GPT-5.4, GPT-5.4 VLM, and ORAD. Performance was assessed using Top-1 and Top-3 accuracy, ablation and statistical analyses, intra-model stability, and response time. JADE-Plus achieved the highest diagnostic performance, with a Top-1 accuracy of 90% (36/40; 95% CI 76\u201397%) and a Top-3 accuracy of 100%, with no missed diagnoses. Cochran\u2019s Q test demonstrated significant differences among models for both Top-3 correctness ( Q = 25.66, p &lt; 0.001) and Top-1 correctness ( Q = 27.55, p &lt; 0.001). Post-hoc McNemar tests with the Benjamini\u2013Hochberg correction showed that JADE-Plus significantly outperformed other models, particularly under the stricter Top-1 evaluation. Ablation analysis showed that the agentic verification stage improved Top-1 and Top-3 accuracy by 15 and 8 percentage points, respectively. JADE-Plus achieved the highest reproducibility (mean Jaccard similarity 0.97 \u00b1 0.12) while maintaining a mean response time of 33 \u00b1 1.5 s per case. JADE-Plus demonstrated superior diagnostic accuracy, stability, and reproducibility compared with baseline systems, supporting multimodal agentic RAG frameworks for jawbone lesion diagnosis.",
+    "summary": "Abstract Diagnosing jawbone lesions in oral and maxillofacial radiology remains challenging due to overlapping radiological features and the need for integrated clinical reasoning. This study aimed to develop and validate JADE-Plus, a novel multimodal, agent-controlled retrieval-augmented generation (RAG) framework for diagnostic decision support in jawbone lesion assessment. JADE-Plus was implemented as a cloud-based, tablet-optimized system integrating a vision-language model (VLM) for panoramic radiograph analysis, a knowledge-grounded RAG module, and an agentic verification loop for diagnostic fusion and re-ranking. The system was evaluated using 40 representative jawbone lesion cases and compared with JADE, GPT-5.4, GPT-5.4 VLM, and ORAD. Performance was assessed using Top-1 and Top-3 accuracy, ablation and statistical analyses, intra-model stability, and response time. JADE-Plus achieved the highest diagnostic performance, with a Top-1 accuracy of 90% (36/40; 95% CI 76\u201397%) and a Top-3 accuracy of 100%, with no missed diagnoses. Cochran\u2019s Q test demonstrated significant differences among models for both Top-3 correctness ( Q = 25.66, p < 0.001) and Top-1 correctness ( Q = 27.55, p < 0.001). Post-hoc McNemar tests with the Benjamini\u2013Hochberg correction showed that JADE-Plus significantly outperformed other models, particularly under the stricter Top-1 evaluation. Ablation analysis showed that the agentic verification stage improved Top-1 and Top-3 accuracy by 15 and 8 percentage points, respectively. JADE-Plus achieved the highest reproducibility (mean Jaccard similarity 0.97 \u00b1 0.12) while maintaining a mean response time of 33 \u00b1 1.5 s per case. JADE-Plus demonstrated superior diagnostic accuracy, stability, and reproducibility compared with baseline systems, supporting multimodal agentic RAG frameworks for jawbone lesion diagnosis.",
     "authors": [
       "Soroush Baseri Saadi",
       "Jonas Ver Berne",
@@ -287,11 +245,8 @@
       "Peter Claes",
       "Reinhilde Jacobs"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-07-13",
     "updated": "2026-07-13",
     "abs_url": "https://doi.org/10.1007/s10278-026-02086-9",
@@ -308,11 +263,8 @@
       "Torkis Nasution",
       "Susanti"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-02-26",
     "updated": "2026-02-26",
     "abs_url": "https://doi.org/10.35314/3y9hy151",
@@ -332,11 +284,8 @@
       "Hayden Heninger",
       "Cui Tao"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-05-08",
     "updated": "2026-05-09",
     "abs_url": "https://doi.org/10.1093/sleep/zsag091.0346",
@@ -351,11 +300,8 @@
       "Novanto Yudistira",
       "Yanuar Putra Kharisma Adhiyasa"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-07-10",
     "updated": "2026-07-10",
     "abs_url": "https://doi.org/10.21203/rs.3.rs-10178277/v1",
@@ -370,11 +316,8 @@
       "Kushal Budha",
       "Nikesh Lagun"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-02",
     "updated": "2026-06-02",
     "abs_url": "https://doi.org/10.21203/rs.3.rs-9882260/v1",
@@ -388,11 +331,8 @@
     "authors": [
       "Sohail Khan"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-05-31",
     "updated": "2026-05-16",
     "abs_url": "https://doi.org/10.22214/ijraset.2026.82233",
@@ -406,11 +346,8 @@
     "authors": [
       "Haopeng Yang"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-01",
     "updated": "2026-06-01",
     "abs_url": "https://doi.org/10.54254/2753-8818/2026.dl34055",
@@ -429,11 +366,8 @@
       "Noorbakhsh Amiri Golilarz",
       "Andy Perkins"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-05-06",
     "updated": "2026-05-06",
     "abs_url": "https://doi.org/10.32473/flairs.39.1.141782",
@@ -447,11 +381,8 @@
     "authors": [
       "AMOS MBEKI NYAGAR"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-05-22",
     "updated": "2026-05-22",
     "abs_url": "https://doi.org/10.21203/rs.3.rs-9770645/v1",
@@ -466,11 +397,8 @@
       "Wei Tian",
       "Yuhao Zhou"
     ],
-    "categories": [
-      "Computer Science",
-      "Artificial Intelligence"
-    ],
-    "primary_category": "Computer Science",
+    "categories": [],
+    "primary_category": "",
     "published": "2026-06-30",
     "updated": "2026-07-16",
     "abs_url": "https://doi.org/10.1111/exsy.70341",
