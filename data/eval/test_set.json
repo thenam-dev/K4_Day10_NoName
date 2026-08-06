@@ -1,0 +1,866 @@
+[
+  {
+    "id": "test-001",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'SafeRAG: A Large-Language-Model-Based Multistage Retrieval-Augmented Framework for Oil and Gas Safety Report Generation'?",
+    "ground_truth": "Summary In high-risk industrial settings, leveraging large language models (LLMs) for automated accident analysis and generating safety reports has emerged as an efficient workflow.",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "test-002",
+    "question_type": "authors",
+    "question": "Who authored the paper 'SafeRAG: A Large-Language-Model-Based Multistage Retrieval-Augmented Framework for Oil and Gas Safety Report Generation'?",
+    "ground_truth": "Qianwen Cao, Chiyu Zhang, Junxiong Ning, Gongru Li",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "test-003",
+    "question_type": "date",
+    "question": "When was the paper 'SafeRAG: A Large-Language-Model-Based Multistage Retrieval-Augmented Framework for Oil and Gas Safety Report Generation' published?",
+    "ground_truth": "2026-08-05",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "test-004",
+    "question_type": "categories",
+    "question": "What categories does the paper 'SafeRAG: A Large-Language-Model-Based Multistage Retrieval-Augmented Framework for Oil and Gas Safety Report Generation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "test-005",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study'?",
+    "ground_truth": "Abstract Diagnosing jawbone lesions in oral and maxillofacial radiology remains challenging due to overlapping radiological features and the need for integrated clinical reasoning.",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "test-006",
+    "question_type": "authors",
+    "question": "Who authored the paper 'JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study'?",
+    "ground_truth": "Soroush Baseri Saadi, Jonas Ver Berne, Rocharles Cavalcante Fontenele, Peter Claes, Reinhilde Jacobs",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "test-007",
+    "question_type": "date",
+    "question": "When was the paper 'JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study' published?",
+    "ground_truth": "2026-07-13",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "test-008",
+    "question_type": "categories",
+    "question": "What categories does the paper 'JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "test-009",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Retrieval-Augmented Large-Language-Model-Based Time-Series Forecasting for Cross-Market Equity Analysis'?",
+    "ground_truth": "Abstract Time-series foundation models and retrieval-based augmentation have recently emerged as relevant tools for financial forecasting, yet it remains unclear when explicit historical retrieval helps a pre-trained probabilistic forecaster in noisy equity settings.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "test-010",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Retrieval-Augmented Large-Language-Model-Based Time-Series Forecasting for Cross-Market Equity Analysis'?",
+    "ground_truth": "Novanto Yudistira, Yanuar Putra Kharisma Adhiyasa",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "test-011",
+    "question_type": "date",
+    "question": "When was the paper 'Retrieval-Augmented Large-Language-Model-Based Time-Series Forecasting for Cross-Market Equity Analysis' published?",
+    "ground_truth": "2026-07-10",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "test-012",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Retrieval-Augmented Large-Language-Model-Based Time-Series Forecasting for Cross-Market Equity Analysis' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "test-013",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Does retrieval-augmented generation impact medical students\u2019 perceptions of large language models? (Preprint)'?",
+    "ground_truth": "BACKGROUND There is evidence of rapid adoption of large language models (LLMs) in undergraduate medical education, with medical students using it to support their learning.",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "test-014",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Does retrieval-augmented generation impact medical students\u2019 perceptions of large language models? (Preprint)'?",
+    "ground_truth": "Rohin Athavale, Alexander Cresswell, Alice Huffman",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "test-015",
+    "question_type": "date",
+    "question": "When was the paper 'Does retrieval-augmented generation impact medical students\u2019 perceptions of large language models? (Preprint)' published?",
+    "ground_truth": "2026-07-03",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "test-016",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Does retrieval-augmented generation impact medical students\u2019 perceptions of large language models? (Preprint)' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "test-017",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models'?",
+    "ground_truth": "Designers, engineers, and building officials face increasing pressure to accelerate and improve the accuracy of design review for buildings and infrastructure.",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "test-018",
+    "question_type": "authors",
+    "question": "Who authored the paper 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models'?",
+    "ground_truth": "Nawari O. Nawari, Oluwatoyin O. Lawal",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "test-019",
+    "question_type": "date",
+    "question": "When was the paper 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models' published?",
+    "ground_truth": "2026-07-02",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "test-020",
+    "question_type": "categories",
+    "question": "What categories does the paper 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "test-021",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model'?",
+    "ground_truth": "The US Army Corps of Engineers (USACE) Civil Works (CW) research and development (R&amp;D) mission is to address challenging environmental sustainability problems through innovative science and engineering, which helps to ensure a safer, more prosperous, and more resilient nation.",
+    "ground_truth_doc_ids": [
+      "10.21079/11681/50309"
+    ]
+  },
+  {
+    "id": "test-022",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model'?",
+    "ground_truth": "Janet L. Autrey, Lacey S. Duckworth, Ashly N. Horner, Thomas Sigler, Victoria D. Moore",
+    "ground_truth_doc_ids": [
+      "10.21079/11681/50309"
+    ]
+  },
+  {
+    "id": "test-023",
+    "question_type": "date",
+    "question": "When was the paper 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model' published?",
+    "ground_truth": "2026-07-01",
+    "ground_truth_doc_ids": [
+      "10.21079/11681/50309"
+    ]
+  },
+  {
+    "id": "test-024",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.21079/11681/50309"
+    ]
+  },
+  {
+    "id": "test-025",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges'?",
+    "ground_truth": "The rapid evolution of large language models (LLMs) has catalyzed a shift from passive AI systems toward autonomous agentic architectures capable of reasoning, memory, tool use, and multi-agent collaboration.",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "test-026",
+    "question_type": "authors",
+    "question": "Who authored the paper 'The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges'?",
+    "ground_truth": "Ben J. Weber, Clara M. Hofmann, Amara N. Okoye",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "test-027",
+    "question_type": "date",
+    "question": "When was the paper 'The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges' published?",
+    "ground_truth": "2026-06-30",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "test-028",
+    "question_type": "categories",
+    "question": "What categories does the paper 'The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "test-029",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents'?",
+    "ground_truth": "ABSTRACT As tool repositories for Large Language Model (LLM) agents grow from dozens to hundreds of endpoints, flat retrieval paradigms that treat the repository as an unstructured list suffer from context overload, cross\u2010domain semantic collision and degraded selection accuracy.",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "test-030",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents'?",
+    "ground_truth": "Wei Tian, Yuhao Zhou",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "test-031",
+    "question_type": "date",
+    "question": "When was the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents' published?",
+    "ground_truth": "2026-06-30",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "test-032",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "test-033",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper '\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation)'?",
+    "ground_truth": "\u0412 \u0441\u0442\u0430\u0442\u044c\u0435 \u043f\u0440\u043e\u0432\u0435\u0434\u0435\u043d\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u0435 \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e\u0441\u0442\u0435\u0439 \u0441\u043d\u0438\u0436\u0435\u043d\u0438\u044f \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation) \u0432 \u0441\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0445 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445.",
+    "ground_truth_doc_ids": [
+      "10.47576/2949-1894.2026.7.7.023"
+    ]
+  },
+  {
+    "id": "test-034",
+    "question_type": "authors",
+    "question": "Who authored the paper '\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation)'?",
+    "ground_truth": "\u0418.\u0412. \u0415\u0440\u043c\u0430\u043a\u043e\u0432, \u0412.\u0412. \u0424\u0438\u043b\u0430\u0442\u043e\u0432",
+    "ground_truth_doc_ids": [
+      "10.47576/2949-1894.2026.7.7.023"
+    ]
+  },
+  {
+    "id": "test-035",
+    "question_type": "date",
+    "question": "When was the paper '\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation)' published?",
+    "ground_truth": "2026-06-15",
+    "ground_truth_doc_ids": [
+      "10.47576/2949-1894.2026.7.7.023"
+    ]
+  },
+  {
+    "id": "test-036",
+    "question_type": "categories",
+    "question": "What categories does the paper '\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation)' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.47576/2949-1894.2026.7.7.023"
+    ]
+  },
+  {
+    "id": "test-037",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture'?",
+    "ground_truth": "Abstract Enterprise adoption of artificial intelligence (AI) systems, including Generative AI (GenAI), Retrieval-Augmented Generation (RAG), and agentic AI, is advancing faster than many organizations can adapt their governance, audit, cybersecurity, and executive oversight practices.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10012178/v1"
+    ]
+  },
+  {
+    "id": "test-038",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture'?",
+    "ground_truth": "Audrey Rah, Sven Hahues",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10012178/v1"
+    ]
+  },
+  {
+    "id": "test-039",
+    "question_type": "date",
+    "question": "When was the paper 'Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture' published?",
+    "ground_truth": "2026-06-15",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10012178/v1"
+    ]
+  },
+  {
+    "id": "test-040",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10012178/v1"
+    ]
+  },
+  {
+    "id": "test-041",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Abstract Large language models (LLMs) increasingly support reasoning, question answering, decision support, and retrieval-augmented knowledge work.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "test-042",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation'?",
+    "ground_truth": "Kushal Budha, Nikesh Lagun",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "test-043",
+    "question_type": "date",
+    "question": "When was the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-06-02",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "test-044",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Operationalizing Reliability Gaps in Large Language Models: A Semi-Systematic Evidence Map of Reasoning, Factuality, Evaluation, and Retrieval-Augmented Generation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9882260/v1"
+    ]
+  },
+  {
+    "id": "test-045",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Chatbot Hybrid Fatwa MUI Menggunakan Retrieval Augmented Generation dan Large Language Model'?",
+    "ground_truth": "Aksesibilitas dokumen digital Fatwa Majelis Ulama Indonesia (MUI) yang terfragmentasi membuat pencarian informasi kurang efektif.",
+    "ground_truth_doc_ids": [
+      "10.52060/juptik.v4i1.4318"
+    ]
+  },
+  {
+    "id": "test-046",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Chatbot Hybrid Fatwa MUI Menggunakan Retrieval Augmented Generation dan Large Language Model'?",
+    "ground_truth": "Surya Hidayatullah Firdaus, Nazruddin Safaat H, Yelfi Vitriani, Novriyanto",
+    "ground_truth_doc_ids": [
+      "10.52060/juptik.v4i1.4318"
+    ]
+  },
+  {
+    "id": "test-047",
+    "question_type": "date",
+    "question": "When was the paper 'Chatbot Hybrid Fatwa MUI Menggunakan Retrieval Augmented Generation dan Large Language Model' published?",
+    "ground_truth": "2026-06-01",
+    "ground_truth_doc_ids": [
+      "10.52060/juptik.v4i1.4318"
+    ]
+  },
+  {
+    "id": "test-048",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Chatbot Hybrid Fatwa MUI Menggunakan Retrieval Augmented Generation dan Large Language Model' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.52060/juptik.v4i1.4318"
+    ]
+  },
+  {
+    "id": "test-049",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation'?",
+    "ground_truth": "Large language models have demonstrated strong generative capability in question answering, dialogue, and other knowledge-intensive tasks.",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "test-050",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation'?",
+    "ground_truth": "Haopeng Yang",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "test-051",
+    "question_type": "date",
+    "question": "When was the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' published?",
+    "ground_truth": "2026-06-01",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "test-052",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hallucination in Large Language Models and Retrieval-Augmented Generation: Mechanisms, Mitigation, and Evaluation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.54254/2753-8818/2026.dl34055"
+    ]
+  },
+  {
+    "id": "test-053",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation'?",
+    "ground_truth": "Knowledge graphs (KGs) hold facts about the world as connected triples, and they have become a backbone for any system that needs to reason over linked information.",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "test-054",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation'?",
+    "ground_truth": "Sohail Khan",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "test-055",
+    "question_type": "date",
+    "question": "When was the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-05-31",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "test-056",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hybrid Graph Neural Network and Large Language Model Framework for Robust Knowledge Graph Question Answering via Retrieval-Augmented Generation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.22214/ijraset.2026.82233"
+    ]
+  },
+  {
+    "id": "test-057",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya'?",
+    "ground_truth": "Abstract Background.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9770645/v1"
+    ]
+  },
+  {
+    "id": "test-058",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya'?",
+    "ground_truth": "AMOS MBEKI NYAGAR",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9770645/v1"
+    ]
+  },
+  {
+    "id": "test-059",
+    "question_type": "date",
+    "question": "When was the paper 'Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya' published?",
+    "ground_truth": "2026-05-22",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9770645/v1"
+    ]
+  },
+  {
+    "id": "test-060",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Adapting Large Language Models for Low-Resource Regulated Domains: A Fine-Tuning and Retrieval-Augmented Generation Approach to Insurance Information Delivery in Kenya' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-9770645/v1"
+    ]
+  },
+  {
+    "id": "test-061",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine'?",
+    "ground_truth": "Abstract Introduction While Large Language Models (LLMs) offer generative capabilities, generic models often lack domain-specific grounding, leading to hallucinations in high-stakes contexts.",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "test-062",
+    "question_type": "authors",
+    "question": "Who authored the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine'?",
+    "ground_truth": "Joseph Cheung, Pengze Li, Anshum Patel, SaiKrishna Vallamchetla, Het Contractor, Hayden Heninger, Cui Tao",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "test-063",
+    "question_type": "date",
+    "question": "When was the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' published?",
+    "ground_truth": "2026-05-08",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "test-064",
+    "question_type": "categories",
+    "question": "What categories does the paper '0346 Retrieval Augmented Generation Improves Large Language Model Performance in Sleep Medicine' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.1093/sleep/zsag091.0346"
+    ]
+  },
+  {
+    "id": "test-065",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference'?",
+    "ground_truth": "Abstract - This work focuses on the two crucial bottlenecks in Retrieval-Augmented Generation (RAG): high inference latency and expensive computation cost.",
+    "ground_truth_doc_ids": [
+      "10.55041/isjem07213"
+    ]
+  },
+  {
+    "id": "test-066",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference'?",
+    "ground_truth": "Dr. Sumalatha P, Manoj Kumar",
+    "ground_truth_doc_ids": [
+      "10.55041/isjem07213"
+    ]
+  },
+  {
+    "id": "test-067",
+    "question_type": "date",
+    "question": "When was the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference' published?",
+    "ground_truth": "2026-05-06",
+    "ground_truth_doc_ids": [
+      "10.55041/isjem07213"
+    ]
+  },
+  {
+    "id": "test-068",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Speculative Retrieval-Augmented Generation for Cost-Efficient Large Language Model Inference' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.55041/isjem07213"
+    ]
+  },
+  {
+    "id": "test-069",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models'?",
+    "ground_truth": "Mental health conditions affect over one billion individuals globally and remain challenging to assess accurately due to fragmented clinical data and subjective evaluation methods.",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "test-070",
+    "question_type": "authors",
+    "question": "Who authored the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models'?",
+    "ground_truth": "Khoa Pham, Jiacheng Li, Hassan S. Al Khatib, Shahram Rahimi, Noorbakhsh Amiri Golilarz, Andy Perkins",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "test-071",
+    "question_type": "date",
+    "question": "When was the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' published?",
+    "ground_truth": "2026-05-06",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "test-072",
+    "question_type": "categories",
+    "question": "What categories does the paper 'An Exploratory Study of Agentic Retrieval Augmented Generation for Mental Health Oriented Language Models' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.32473/flairs.39.1.141782"
+    ]
+  },
+  {
+    "id": "test-073",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation'?",
+    "ground_truth": "This study investigates a method that integrates retrieval-augmented mechanisms into large language model agents for scientific literature review generation.",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202604.0339.v1"
+    ]
+  },
+  {
+    "id": "test-074",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation'?",
+    "ground_truth": "Ruotong Wang, Nyutian Long, Shunqi Liu, Yuxi Wang, Zhen Qi, Huajun Zhang",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202604.0339.v1"
+    ]
+  },
+  {
+    "id": "test-075",
+    "question_type": "date",
+    "question": "When was the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation' published?",
+    "ground_truth": "2026-04-06",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202604.0339.v1"
+    ]
+  },
+  {
+    "id": "test-076",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Retrieval-Augmented Large Language Model Agents for Automated Scientific Literature Review Generation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202604.0339.v1"
+    ]
+  },
+  {
+    "id": "test-077",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models'?",
+    "ground_truth": "Large Language Models (LLMs) that rely solely on parametric memory learned through training have demonstrated strong performance in biomedical question-answering, but their tendency to hallucinate facts and the difficulty of adjusting and adding to the learned knowledge limit their usefulness in clinical settings.",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "test-078",
+    "question_type": "authors",
+    "question": "Who authored the paper 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models'?",
+    "ground_truth": "Eason Ni",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "test-079",
+    "question_type": "date",
+    "question": "When was the paper 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models' published?",
+    "ground_truth": "2026-03-15",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "test-080",
+    "question_type": "categories",
+    "question": "What categories does the paper 'The Role of Retrieval-Augmented Generation in Improving Factual Accuracy for Medical Large Language Models' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.70121/001c.158711"
+    ]
+  },
+  {
+    "id": "test-081",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'A Survey of (Deep RAG) Deep Retrieval Augmented Generation and Reasoning in Large Language Models'?",
+    "ground_truth": "Retrieval-Augmented Generation (RAG) has emerged as a powerful paradigm for combining large language models with external knowledge sources to produce accurate, context-aware, and verifiable outputs.",
+    "ground_truth_doc_ids": [
+      "10.36227/techrxiv.177272838.89432844/v1"
+    ]
+  },
+  {
+    "id": "test-082",
+    "question_type": "authors",
+    "question": "Who authored the paper 'A Survey of (Deep RAG) Deep Retrieval Augmented Generation and Reasoning in Large Language Models'?",
+    "ground_truth": "Lihui Liu",
+    "ground_truth_doc_ids": [
+      "10.36227/techrxiv.177272838.89432844/v1"
+    ]
+  },
+  {
+    "id": "test-083",
+    "question_type": "date",
+    "question": "When was the paper 'A Survey of (Deep RAG) Deep Retrieval Augmented Generation and Reasoning in Large Language Models' published?",
+    "ground_truth": "2026-03-05",
+    "ground_truth_doc_ids": [
+      "10.36227/techrxiv.177272838.89432844/v1"
+    ]
+  },
+  {
+    "id": "test-084",
+    "question_type": "categories",
+    "question": "What categories does the paper 'A Survey of (Deep RAG) Deep Retrieval Augmented Generation and Reasoning in Large Language Models' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.36227/techrxiv.177272838.89432844/v1"
+    ]
+  },
+  {
+    "id": "test-085",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning'?",
+    "ground_truth": "Recent GraphRAG methods based on knowledge graphs (KGs) primarily rely on either under-reasoning or a structural path-level retriever, which prevents them from jointly capturing fine-grained semantic relevance and explicit multi-hop reasoning paths.",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "test-086",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning'?",
+    "ground_truth": "Hyewon Lee, Sungsu Lim",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "test-087",
+    "question_type": "date",
+    "question": "When was the paper 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning' published?",
+    "ground_truth": "2026-02-26",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "test-088",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Hybrid Retrieval-Augmented Generation: Semantic and Structural Integration for Large Language Model Reasoning' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.3390/app16052244"
+    ]
+  },
+  {
+    "id": "test-089",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Implementation of Retrieval-Augmented Generation Method on Large Language Model for Development of Campus Service and Information Chatbot'?",
+    "ground_truth": "Large language models have the potential to improve the quality of information services in higher education environments through responsive and natural interactions.",
+    "ground_truth_doc_ids": [
+      "10.35314/3y9hy151"
+    ]
+  },
+  {
+    "id": "test-090",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Implementation of Retrieval-Augmented Generation Method on Large Language Model for Development of Campus Service and Information Chatbot'?",
+    "ground_truth": "Muhammad Dzaki Salman, Rahmaddeni, Torkis Nasution, Susanti",
+    "ground_truth_doc_ids": [
+      "10.35314/3y9hy151"
+    ]
+  },
+  {
+    "id": "test-091",
+    "question_type": "date",
+    "question": "When was the paper 'Implementation of Retrieval-Augmented Generation Method on Large Language Model for Development of Campus Service and Information Chatbot' published?",
+    "ground_truth": "2026-02-26",
+    "ground_truth_doc_ids": [
+      "10.35314/3y9hy151"
+    ]
+  },
+  {
+    "id": "test-092",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Implementation of Retrieval-Augmented Generation Method on Large Language Model for Development of Campus Service and Information Chatbot' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.35314/3y9hy151"
+    ]
+  },
+  {
+    "id": "test-093",
+    "question_type": "summary",
+    "question": "What is the main finding or summary of the paper 'Clinical Large Language Models with Multi-Stage Instruction Tuning and Advanced Retrieval-Augmented Generation'?",
+    "ground_truth": "The demand for efficient and accurate Clinical Decision Support Systems (CDSS) is growing rapidly, driven by the escalating volume of medical data.",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202602.0996.v1"
+    ]
+  },
+  {
+    "id": "test-094",
+    "question_type": "authors",
+    "question": "Who authored the paper 'Clinical Large Language Models with Multi-Stage Instruction Tuning and Advanced Retrieval-Augmented Generation'?",
+    "ground_truth": "Donald Martin, Blake Bowman",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202602.0996.v1"
+    ]
+  },
+  {
+    "id": "test-095",
+    "question_type": "date",
+    "question": "When was the paper 'Clinical Large Language Models with Multi-Stage Instruction Tuning and Advanced Retrieval-Augmented Generation' published?",
+    "ground_truth": "2026-02-12",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202602.0996.v1"
+    ]
+  },
+  {
+    "id": "test-096",
+    "question_type": "categories",
+    "question": "What categories does the paper 'Clinical Large Language Models with Multi-Stage Instruction Tuning and Advanced Retrieval-Augmented Generation' belong to?",
+    "ground_truth": "Computer Science, Artificial Intelligence",
+    "ground_truth_doc_ids": [
+      "10.20944/preprints202602.0996.v1"
+    ]
+  }
+]
