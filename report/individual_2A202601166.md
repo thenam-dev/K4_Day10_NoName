@@ -2,42 +2,42 @@
 
 ## 1. Thông tin cá nhân
 
-| Thông tin | Nội dung |
-| --- | --- |
-| Họ và tên | Đào Duy Hưng |
-| MSSV | 2A202601166 |
-| Khóa/Lớp | K4 |
-| Tên nhóm | NoName |
-| Vai trò chính | Thành viên 2 — Data Model & Evaluation-set Owner |
-| Repository | https://github.com/thenam-dev/K4_Day10_NoName |
-| Ngày hoàn thành | 2026-08-06 |
+| Thông tin       | Nội dung                                         |
+| --------------- | ------------------------------------------------ |
+| Họ và tên       | Đào Duy Hưng                                     |
+| MSSV            | 2A202601166                                      |
+| Khóa/Lớp        | K4                                               |
+| Tên nhóm        | NoName                                           |
+| Vai trò chính   | Thành viên 2 — Data Model & Evaluation-set Owner |
+| Repository      | https://github.com/thenam-dev/K4_Day10_NoName    |
+| Ngày hoàn thành | 2026-08-06                                       |
 
 ## 2. Vai trò và phạm vi công việc
 
 ### Phần việc sở hữu
 
-| Module/deliverable | File/hàm phụ trách | Input nhận vào | Output bàn giao | Trạng thái |
-| --- | --- | --- | --- | --- |
+| Module/deliverable     | File/hàm phụ trách                                    | Input nhận vào                                | Output bàn giao                                            | Trạng thái |
+| ---------------------- | ----------------------------------------------------- | --------------------------------------------- | ---------------------------------------------------------- | ---------- |
 | Cleaning và data model | `src/ingestion/cleaning.py` — `build_clean_dataframe` | `list[PaperRecord]` từ Crossref và `run_date` | Dataframe clean; `papers_clean.csv` và `papers_clean.json` | Hoàn thành |
-| Evaluation set | `src/evaluation/testset.py` — `build_test_set` | Clean dataframe và đường dẫn output | `data/eval/test_set.json` | Hoàn thành |
+| Evaluation set         | `src/evaluation/testset.py` — `build_test_set`        | Clean dataframe và đường dẫn output           | `data/eval/test_set.json`                                  | Hoàn thành |
 
 Các module retrieval, quality và pipeline sử dụng schema clean do tôi bàn giao. Tôi không nhận ownership cho Crossref ingestion, observability, corruption hoặc orchestration.
 
 ### Việc hỗ trợ ngoài phạm vi chính
 
-| Hoạt động | Thành viên/module được hỗ trợ | Kết quả |
-| --- | --- | --- |
-| Kiểm tra contract raw-to-clean | `crossref.py` và `phase1.py` | Xác minh raw snapshot có 24 records và schema phù hợp để clean. |
-| Tái sinh baseline artifact | Baseline pipeline | Tạo lại clean data, embedding manifest, evaluation set và baseline answers sau khi cập nhật cleaning rules. |
+| Hoạt động                      | Thành viên/module được hỗ trợ | Kết quả                                                                                                     |
+| ------------------------------ | ----------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| Kiểm tra contract raw-to-clean | `crossref.py` và `phase1.py`  | Xác minh raw snapshot có 24 records và schema phù hợp để clean.                                             |
+| Tái sinh baseline artifact     | Baseline pipeline             | Tạo lại clean data, embedding manifest, evaluation set và baseline answers sau khi cập nhật cleaning rules. |
 
 ## 3. Kết quả theo vai trò
 
-| Nhiệm vụ đã thực hiện | File/hàm/artifact liên quan | Kết quả bàn giao | Cách xác minh |
-| --- | --- | --- | --- |
-| Chuẩn hóa raw records | `cleaning.py`; `data/clean/papers_clean.csv`, `papers_clean.json` | 24 records clean, `paper_id` unique, không có title/summary rỗng | Kiểm tra dataframe và `baseline_quality_checks.json` |
-| Tạo nội dung embedding | `cleaning.py` — `text_for_embedding` | Mỗi document có title, authors, categories, published date và summary | Kiểm tra 24/24 rows có trường này |
-| Xây test set ổn định | `testset.py`; `data/eval/test_set.json` | 96 samples: 24 cho mỗi loại `summary`, `authors`, `date`, `categories` | Đếm sample và đối chiếu `ground_truth_doc_ids` với clean IDs |
-| Kiểm tra baseline tích hợp | `data/results/baseline_metrics.json` | `retrieval_hit_rate=1.0`, `mean_token_f1=1.0`, `judge_accuracy=1.0`, `mean_judge_score=5.0` | Chạy `script/run_phase1.py` |
+| Nhiệm vụ đã thực hiện      | File/hàm/artifact liên quan                                       | Kết quả bàn giao                                                                            | Cách xác minh                                                |
+| -------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Chuẩn hóa raw records      | `cleaning.py`; `data/clean/papers_clean.csv`, `papers_clean.json` | 24 records clean, `paper_id` unique, không có title/summary rỗng                            | Kiểm tra dataframe và `baseline_quality_checks.json`         |
+| Tạo nội dung embedding     | `cleaning.py` — `text_for_embedding`                              | Mỗi document có title, authors, categories, published date và summary                       | Kiểm tra 24/24 rows có trường này                            |
+| Xây test set ổn định       | `testset.py`; `data/eval/test_set.json`                           | 96 samples: 24 cho mỗi loại `summary`, `authors`, `date`, `categories`                      | Đếm sample và đối chiếu `ground_truth_doc_ids` với clean IDs |
+| Kiểm tra baseline tích hợp | `data/results/baseline_metrics.json`                              | `retrieval_hit_rate=1.0`, `mean_token_f1=1.0`, `judge_accuracy=1.0`, `mean_judge_score=5.0` | Chạy `script/run_phase1.py`                                  |
 
 Output cụ thể do phần việc của tôi tạo ra là `data/eval/test_set.json`: 96 câu hỏi có `ground_truth_doc_ids` trỏ đúng 24 `paper_id` trong cleaned dataset. Artifact này là input dùng chung để so sánh các trạng thái pipeline.
 
@@ -57,13 +57,13 @@ Raw metadata từ Crossref có thể chứa HTML/JATS, khoảng trắng thừa, 
 
 ### Input, output và contract
 
-| Thành phần | Mô tả |
-| --- | --- |
-| Input | `PaperRecord` có DOI, title, summary, authors, categories, dates và URLs; `run_date` là `date` hoặc `datetime`. |
-| Output | Clean dataframe gồm các cột bắt buộc: `paper_id`, `title`, `summary`, `authors_joined`, `categories_joined`, `published`, `age_days`, `summary_chars`, `text_for_embedding` cùng metadata nguồn. |
-| Module phụ thuộc | `src/ingestion/crossref.py` cung cấp `PaperRecord`; `src/core/utils.py` cung cấp hàm đọc/ghi và normalize. |
-| Module sử dụng output | `retrieval/index.py`, `evaluation/metrics.py`, `observability/quality.py`, `pipelines/phase1.py` và corruption flow. |
-| Điều kiện lỗi xử lý | Dataframe thiếu cột, ít hơn 4 documents, DOI rỗng/trùng; record có title/summary/date không hợp lệ; test set cache không còn khớp dữ liệu clean. |
+| Thành phần            | Mô tả                                                                                                                                                                                            |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Input                 | `PaperRecord` có DOI, title, summary, authors, categories, dates và URLs; `run_date` là `date` hoặc `datetime`.                                                                                  |
+| Output                | Clean dataframe gồm các cột bắt buộc: `paper_id`, `title`, `summary`, `authors_joined`, `categories_joined`, `published`, `age_days`, `summary_chars`, `text_for_embedding` cùng metadata nguồn. |
+| Module phụ thuộc      | `src/ingestion/crossref.py` cung cấp `PaperRecord`; `src/core/utils.py` cung cấp hàm đọc/ghi và normalize.                                                                                       |
+| Module sử dụng output | `retrieval/index.py`, `evaluation/metrics.py`, `observability/quality.py`, `pipelines/phase1.py` và corruption flow.                                                                             |
+| Điều kiện lỗi xử lý   | Dataframe thiếu cột, ít hơn 4 documents, DOI rỗng/trùng; record có title/summary/date không hợp lệ; test set cache không còn khớp dữ liệu clean.                                                 |
 
 ### Cách xác minh
 
@@ -108,14 +108,14 @@ $env:REFRESH_TEST_SET='true'
 
 ### Metrics chính
 
-| Metric/signal | Baseline | Corrupted | Repaired | Nhận xét của cá nhân |
-| --- | ---: | ---: | ---: | --- |
-| `retrieval_hit_rate` | 1.0000 | Chưa có artifact | Chưa có artifact | Baseline retrieve đúng document ID cho 96 samples. |
-| `mean_token_f1` | 1.0000 | Chưa có artifact | Chưa có artifact | Answer khớp ground truth theo token F1. |
-| `judge_accuracy` | 1.0000 | Chưa có artifact | Chưa có artifact | Judge dùng fallback heuristic vì không chạy external LLM judge. |
-| `mean_judge_score` | 5.0000 | Chưa có artifact | Chưa có artifact | Cần diễn giải cùng giới hạn của fallback judge. |
-| Quality checks | PASS | Chưa có artifact | Chưa có artifact | 24 rows, IDs unique, 0 title rỗng, 0 summary ngắn. |
-| Freshness status | FRESH | Chưa có artifact | Chưa có artifact | Latest: 2026-08-05; oldest: 2026-02-12; stale: 0/24. |
+| Metric/signal        | Baseline |        Corrupted |         Repaired | Nhận xét của cá nhân                                            |
+| -------------------- | -------: | ---------------: | ---------------: | --------------------------------------------------------------- |
+| `retrieval_hit_rate` |   1.0000 | Chưa có artifact | Chưa có artifact | Baseline retrieve đúng document ID cho 96 samples.              |
+| `mean_token_f1`      |   1.0000 | Chưa có artifact | Chưa có artifact | Answer khớp ground truth theo token F1.                         |
+| `judge_accuracy`     |   1.0000 | Chưa có artifact | Chưa có artifact | Judge dùng fallback heuristic vì không chạy external LLM judge. |
+| `mean_judge_score`   |   5.0000 | Chưa có artifact | Chưa có artifact | Cần diễn giải cùng giới hạn của fallback judge.                 |
+| Quality checks       |     PASS | Chưa có artifact | Chưa có artifact | 24 rows, IDs unique, 0 title rỗng, 0 summary ngắn.              |
+| Freshness status     |    FRESH | Chưa có artifact | Chưa có artifact | Latest: 2026-08-05; oldest: 2026-02-12; stale: 0/24.            |
 
 Kết quả baseline xác minh contract Role 2 hoạt động với pipeline. Tuy nhiên, score 1.0 không nên được hiểu là hệ thống đã được đánh giá toàn diện: câu hỏi hiện chứa title paper, vì vậy exact lookup làm bài baseline thuận lợi; Ragas cũng đang được tắt.
 
